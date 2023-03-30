@@ -21,6 +21,9 @@
 body {
     background-color:var(--background);
 }
+.ara{
+    height: 900px;
+}
 
 /* HEADER */
 .navbar {
@@ -105,5 +108,152 @@ padding-top: 20px;
 font-size: 16px;
 line-height: 19px;
 
+}
+/*  */
+
+/* HAQQİMİZDA */
+
+.haqqimizda{
+    margin-top: 50px;
+}
+.haqqimizda h2{
+    font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+letter-spacing: -0.0025em;
+color: var(--black);
+font-family: var(--prata);
+}
+.haqqimizda p{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+color: var(--black);
+text-align: justify;
+letter-spacing: 0.0015em;
+font-family: var(--raleway);
+padding-top: 50px;
+}
+/*  */
+
+
+.asagisurusdur img:last-child {
+    display: none;
+}
+.asagisurusdur p{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.0015em;
+font-family: var(--raleway);
+color: var(--brown);
+padding-top: 9px;
+}
+.asagisurusdur .container{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+/* asagi surusdur button */
+
+/*  */
+.sturuktur .container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.sturuktur p{
+    font-family: var(--prata);
+    font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+letter-spacing: -0.0025em;
+color: var(--black);
+}
+.sturuktur .line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--black);
+}
+/* SECTION 1*/
+section .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_sec .bold{
+    font-family: var(--raleway);
+    color: var(--black);
+    font-weight: 600;
+    font-size: 21px;
+    
+}
+.right_sec{
+    padding-left: 15px;
+}
+.right_sec .paragraf{
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--black);
+    
+}
+.left_sec{
+    border: 1px solid var(--brown);
+    height: max-content;
+}
+.left_sec img{
+    padding: 10px;
+    width: auto;
+    
+}
+
+/* SECTION 2 */
+.section2 .container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.left_cont .bolder{
+    font-family: var(--raleway);
+    color: var(--black);
+    font-weight: 600;
+    font-size: 21px;
+}
+.left_cont .paragraf{
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--black);
+}
+.right_cont{
+    border: 1px solid var(--brown);
+    height: max-content;
+}
+.right_cont img{
+    padding: 10px;
+    width: auto;
+}
+.right_wrapper .bolder{
+    font-family: var(--raleway);
+    color: var(--black);
+    font-weight: 600;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 10px;
+}
+.right_wrapper h3{
+    font-style: italic;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+font-family: var(--raleway);
+text-align: center;
+color: #B59A59;
 }
 
