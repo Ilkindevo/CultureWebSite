@@ -1,0 +1,15 @@
+/* HEADER */
+@media (max-width:970px) {
+    .section ul{
+        column-gap: 1rem;
+    }  
+}
+@media (max-width:730px){
+    .section,.div{
+        display: none;
+    }
+    .scmenu{
+        display: block;
+    }
+}
+/* HEADER */
