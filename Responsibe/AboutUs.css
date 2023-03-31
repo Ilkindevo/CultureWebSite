@@ -1,0 +1,254 @@
+/* HEADER */
+@media (max-width:970px) {
+    .section ul {
+        column-gap: 1rem;
+    }
+}
+
+@media (max-width:730px) {
+
+    .section,
+    .div {
+        display: none;
+    }
+
+    .scmenu {
+        display: block;
+    }
+}
+
+/* HEADER */
+
+/* HAQQIMIZDA */
+@media (max-width:575px) {
+    .haqqimizda h2 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    .haqqimizda p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+/*  */
+/* asagi surusdur button */
+
+@media (max-width:510px) {
+
+    .asagisurusdur .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .asagisurusdur img:last-child {
+        display: block;
+        order: 1;
+    }
+
+    .asagisurusdur p {
+        order: 2;
+        padding-top: 20px;
+    }
+
+    .asagisurusdur img:first-child {
+        display: none;
+    }
+}
+
+/*  */
+@media (max-width:768px) {
+    .sturuktur .container {
+        flex-direction: column;
+    }
+
+    .sturuktur .container .line {
+        width: 100px;
+    }
+
+    .sturuktur .container p {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+    }
+}
+
+/*  */
+/* section 1 */
+@media (max-width:768px) {
+    section .container {
+        flex-direction: column;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    section .container .left_sec {
+        width: max-content;
+        text-align: center;
+        order: 2;
+
+    }
+
+    .right_sec {
+        order: 1;
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width:568px) {
+    .left_sec img {
+        width: 270px;
+        height: 350px;
+
+    }
+
+    .blok .paragraf {
+        font-size: 14px;
+    }
+
+    .blok .bold {
+        font-size: 14px;
+    }
+}
+
+
+
+/* section 2 */
+@media (max-width:768px) {
+    .section2 .container {
+        flex-direction: column;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .section2 .container .right_cont {
+        width: max-content;
+        text-align: center;
+        order: 2;
+
+    }
+
+    .right_sec {
+        padding-left: 10px;
+    }
+
+    .right_wrapper {
+        padding-top: 40px;
+    }
+
+    .right_cont img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:568px) {
+    .right_cont img {
+        width: 270px;
+        height: 350px;
+
+
+    }
+
+    .left_cont .paragraf {
+        font-size: 14px;
+    }
+
+    .left_cont .bold {
+        font-size: 14px;
+    }
+
+}
+
+/* reklam */
+@media (max-width:548px) {
+
+    .reklam .container img:nth-last-child(3),
+    img:nth-last-child(4) {
+        display: none;
+    }
+
+    .reklam .container img {
+        width: 150px;
+        height: 60px;
+    }
+
+    .reklam .container {
+        flex-wrap: nowrap;
+    }
+}
+
+/* footer */
+@media (max-width:940px) {
+    .cont2 {
+        display: none;
+    }
+
+    .contact {
+        display: flex;
+    }
+
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+@media (max-width:425px) {
+    .cont1 {
+        display: none;
+    }
+
+    .footer .container-lg {
+        flex-direction: column;
+    }
+
+    .contact,
+    .social {
+        text-align: center;
+
+
+    }
+
+    .social {
+        padding-top: 20px;
+
+    }
+}
+
+/*  */
+@media (max-width:540px) {
+    .end .container a {
+        display: block;
+    }
+
+    .end .container {
+        flex-direction: column;
+    }
+
+    .end {
+        height: auto;
+    }
+
+    .end .container div {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .end .container a {
+        padding: 20px 0;
+    }
+
+
+}

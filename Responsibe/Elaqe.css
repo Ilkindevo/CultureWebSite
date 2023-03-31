@@ -1,0 +1,165 @@
+/* HEADER */
+@media (max-width:970px) {
+    .section ul {
+        column-gap: 1rem;
+    }
+}
+
+@media (max-width:730px) {
+
+    .section,
+    .div {
+        display: none;
+    }
+
+    .scmenu {
+        display: block;
+    }
+}
+
+/* HEADER */
+
+/* HAQQIMIZDA */
+@media (max-width:575px) {
+    .haqqimizda h2 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    .haqqimizda p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width:768px) {
+    .section_wrapper {
+        flex-direction: column;
+    }
+
+    .section_wrapper .map {
+        order: 2;
+    }
+
+    .section_wrapper .map {
+        border: none;
+        width: 100%;
+    }
+
+    .section_wrapper .map img {
+        width: 100%;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .line {
+        display: none;
+    }
+}
+
+@media (max-width:425px) {
+    .h2clas .container h2 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    .divvv .bolder {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .divvv .simple {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width:548px) {
+
+    .reklam .container img:nth-last-child(3),
+    img:nth-last-child(4) {
+        display: none;
+    }
+
+    .reklam .container img {
+        width: 150px;
+        height: 60px;
+    }
+
+    .reklam .container {
+        flex-wrap: nowrap;
+    }
+}
+
+/* footer */
+@media (max-width:940px) {
+    .cont2 {
+        display: none;
+    }
+
+    .contact {
+        display: flex;
+    }
+
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+@media (max-width:425px) {
+    .cont1 {
+        display: none;
+    }
+
+    .footer .container-lg {
+        flex-direction: column;
+    }
+
+    .contact,
+    .social {
+        text-align: center;
+
+
+    }
+
+    .social {
+        padding-top: 20px;
+
+    }
+}
+
+/*  */
+@media (max-width:540px) {
+    .end .container a {
+        display: block;
+    }
+
+    .end .container {
+        flex-direction: column;
+    }
+
+    .end {
+        height: auto;
+    }
+
+    .end .container div {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .end .container a {
+        padding: 20px 0;
+    }
+
+
+}
